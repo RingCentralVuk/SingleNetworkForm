@@ -1,0 +1,67 @@
+<complexType name="Network_Information__c">
+<complexContent>
+<extension base="ens:sObject">
+<sequence>
+<element name="Account__c" nillable="true" minOccurs="0" type="tns:ID"/>
+<element name="Account__r" nillable="true" minOccurs="0" type="ens:Account"/>
+<element name="ActivityHistories" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="AttachedContentDocuments" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="Attachments" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="Bandwidth_Download_Result__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Bandwidth_Jitter__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Bandwidth_MOS__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Bandwidth_Packet_Loss__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Bandwidth_Upload_Result__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Case__c" nillable="true" minOccurs="0" type="tns:ID"/>
+<element name="Case__r" nillable="true" minOccurs="0" type="ens:Case"/>
+<element name="CombinedAttachments" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="ConnectionReceived" nillable="true" minOccurs="0" type="ens:PartnerNetworkConnection"/>
+<element name="ConnectionReceivedId" nillable="true" minOccurs="0" type="tns:ID"/>
+<element name="ConnectionSent" nillable="true" minOccurs="0" type="ens:PartnerNetworkConnection"/>
+<element name="ConnectionSentId" nillable="true" minOccurs="0" type="tns:ID"/>
+<element name="CreatedBy" nillable="true" minOccurs="0" type="ens:User"/>
+<element name="CreatedById" nillable="true" minOccurs="0" type="tns:ID"/>
+<element name="CreatedDate" nillable="true" minOccurs="0" type="xsd:dateTime"/>
+<element name="CurrencyIsoCode" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Devices_Number_of_Hubs_Connected__c" nillable="true" minOccurs="0" type="xsd:double"/>
+<element name="Devices_Number_of_PCs_Connected__c" nillable="true" minOccurs="0" type="xsd:double"/>
+<element name="Devices_Number_of_Printers_Connected__c" nillable="true" minOccurs="0" type="xsd:double"/>
+<element name="Devices_Number_of_Switches_Connected__c" nillable="true" minOccurs="0" type="xsd:double"/>
+<element name="DuplicateRecordItems" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="Events" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="FeedSubscriptionsForEntity" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="Implementation__c" nillable="true" minOccurs="0" type="tns:ID"/>
+<element name="Implementation__r" nillable="true" minOccurs="0" type="ens:Implementation__c"/>
+<element name="Internet_Provider_Other__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Internet_Provider__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="IsDeleted" nillable="true" minOccurs="0" type="xsd:boolean"/>
+<element name="LastActivityDate" nillable="true" minOccurs="0" type="xsd:date"/>
+<element name="LastModifiedBy" nillable="true" minOccurs="0" type="ens:User"/>
+<element name="LastModifiedById" nillable="true" minOccurs="0" type="tns:ID"/>
+<element name="LastModifiedDate" nillable="true" minOccurs="0" type="xsd:dateTime"/>
+<element name="LookedUpFromActivities" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="Modem_Make_and_Model__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Name" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Notes" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="NotesAndAttachments" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="OpenActivities" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="Other_Network_Devices__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Owner" nillable="true" minOccurs="0" type="ens:Name"/>
+<element name="OwnerId" nillable="true" minOccurs="0" type="tns:ID"/>
+<element name="ProcessInstances" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="ProcessSteps" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="RecordAssociatedGroups" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="Router_Is_Customer_Open_to_Change_to_QoS__c" nillable="true" minOccurs="0" type="xsd:boolean"/>
+<element name="Router_New_Router_Make_and_Model__c" nillable="true" minOccurs="0" type="xsd:string"/>
+<element name="Router_QOS_Capable__c" nillable="true" minOccurs="0" type="xsd:boolean"/>
+<element name="Shares" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="SystemModstamp" nillable="true" minOccurs="0" type="xsd:dateTime"/>
+<element name="Tags" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="Tasks" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="TopicAssignments" nillable="true" minOccurs="0" type="tns:QueryResult"/>
+<element name="UserRecordAccess" nillable="true" minOccurs="0" type="ens:UserRecordAccess"/>
+<element name="User_ID__c" nillable="true" minOccurs="0" type="xsd:string"/>
+</sequence>
+</extension>
+</complexContent>
+</complexType>
